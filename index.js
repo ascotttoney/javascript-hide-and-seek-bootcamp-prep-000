@@ -1,9 +1,9 @@
-getFirstSelector = (selector) => {
+function getFirstSelector(selector) {
   return document.querySelector(selector)
 }
 
-nestedTarget = () => {
-  return document.querySelector("#nested .target")
+function nestedTarget() {
+  return document.querySelector('#nested .target')
 }
 
 function deepestChild() {
